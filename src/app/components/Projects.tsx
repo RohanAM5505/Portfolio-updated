@@ -6,11 +6,11 @@ import Image from 'next/image'
 
 const allProjects = [
   {
-    title: ' LostLink AI — Smart Lost & Found System',
+    title: ' Lostective — Smart Lost & Found System',
     description:
-      'LostLink AI is a fully functional, AI-powered Lost & Found web application that helps users report, browse, and claim lost or found items using intelligent matching algorithms and real-time communication support Built by Rohith and Rohan.',
+      'Lostective is a fully functional, AI-powered Lost & Found web application that helps users report, browse, and claim lost or found items using intelligent matching algorithms and real-time communication support Built by  Rohan.',
     image: '/images/ll.jpg',
-    link: 'https://lostlink-03c3.onrender.com/home.html',
+    link: 'https://github.com/RohanAM2006/Lostective_APP-Project',
   },
   {
     title: 'HealSense',
@@ -27,6 +27,15 @@ Our project stands out because it quantifies engagement and performance, going b
     image: '/images/commit.jpg',
     link: 'https://github.com/RohanAM2006/Commit2Team-New-',
   },
+{
+    title: 'TechTrackr',
+    description: `TechTrackr'
+  recommends learning paths and role suggestions for students based on their 
+current skills, interests, and academic background using ML algorithms.`,
+    image: '/images/Tech.jpg',
+    link: 'https://github.com/RohanAM2006/CarrerPath-',
+  },
+  
   {
     title: 'Portfolio Website',
     description:
@@ -35,7 +44,7 @@ Our project stands out because it quantifies engagement and performance, going b
     link: '#',
   },
   {
-    title: 'FInsight – Smart Expense Tracker with ML Insights(In development)',
+    title: 'FInsight – Smart Expense Tracker with ML Insights',
     description:
       'FInsight is a modern, responsive expense tracker that leverages machine learning to predict expense categories in real time.',
     image: '/images/FF.jpg',

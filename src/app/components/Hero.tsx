@@ -7,24 +7,24 @@ import Tilt from 'react-parallax-tilt'
 
 const Hero = () => {
   return (
-    <section className="w-full min-h-screen flex flex-col-reverse md:flex-row items-center justify-center px-6 py-16 bg-black dark:bg-black">
-
-      {/* Text Content */}
+    <section className="w-full h-screen flex flex-col-reverse md:flex-row items-center justify-center px-6 md:px-16 bg-gradient-to-r from-[#f8faff] via-[#eef1ff] to-[#f4f7ff] text-gray-900">
+      
+      {/* Text Section */}
       <div className="md:w-1/2 text-center md:text-left space-y-6">
         <motion.h1
           initial={{ opacity: 0, x: -40 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
-          className="text-4xl md:text-5xl font-bold text-indigo-700 dark:text-indigo-400"
+          className="text-5xl md:text-6xl font-bold text-[#3d2cff] font-[Titanium]"
         >
-          Hi, I&apos;m <span className="text-indigo-500">Rohan A M</span>
+          Hi, I&apos;m <span className="text-[rgb(55,16,224)]">Rohan A M</span>
         </motion.h1>
 
         <motion.h2
           initial={{ opacity: 0, x: 40 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1.2 }}
-          className="text-xl md:text-2xl text-white-700 dark:text-white-300"
+          className="text-2xl md:text-3xl text-gray-700 font-[Poppins]"
         >
           <Typewriter
             words={['Full Stack Developer', 'Tech Enthusiast', 'UI/UX Explorer']}
@@ -37,14 +37,29 @@ const Hero = () => {
           />
         </motion.h2>
 
-        <motion.a
-          href="#contact"
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-          className="inline-block bg-indigo-600 text-white px-6 py-3 rounded-full shadow-md hover:bg-indigo-700 transition"
-        >
-          B. TECH IN Computer Science At SRM IST
-        </motion.a>
+        <div className="flex justify-center md:justify-start gap-4 pt-4">
+          <motion.a
+            href="#contact"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="bg-[#5b47ff] text-white px-6 py-3 rounded-full shadow-md hover:bg-[#4a3ae6] transition font-medium"
+          >
+            Get in Touch
+          </motion.a>
+
+          <motion.a
+            href="#projects"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="bg-white text-[#5b47ff] px-6 py-3 rounded-full border border-[#5b47ff] hover:bg-[#f3f0ff] transition font-medium"
+          >
+            View My Work
+          </motion.a>
+        </div>
+
+        <p className="pt-4 text-gray-600 text-sm md:text-base">
+          B. TECH IN Computer Science at SRM IST
+        </p>
       </div>
 
       {/* Image Section */}
@@ -56,11 +71,11 @@ const Hero = () => {
         className="mb-10 md:mb-0 md:w-1/2 flex justify-center"
       >
         <Image
-          src="/images/rohan.jpg"
+          src="/images/rohan.jpeg"
           alt="Profile Picture"
-          width={250}
-          height={250}
-          className="rounded-full shadow-lg"
+          width={320}
+          height={320}
+          className="rounded-full shadow-2xl border-4 border-[#ebeaff]"
         />
       </Tilt>
     </section>
@@ -68,5 +83,3 @@ const Hero = () => {
 }
 
 export default Hero
-
-
