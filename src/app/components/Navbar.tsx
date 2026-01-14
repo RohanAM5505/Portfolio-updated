@@ -36,13 +36,7 @@ const Navbar = () => {
           </Link>
         ))}
 
-        <a
-          href="/resume.pdf"
-          download
-          className="bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700 transition"
-        >
-          Resume
-        </a>
+      
 
         {/* Social Icons */}
         <div className="flex items-center gap-4 text-xl">
