@@ -2,8 +2,8 @@
 
 import { motion } from 'framer-motion'
 import { FaPython, FaReact } from 'react-icons/fa'
-import { SiJavascript, SiNextdotjs, SiFastapi, SiMongodb, SiTypescript } from 'react-icons/si'
-import { TbBrandReactNative } from 'react-icons/tb'
+import { SiJavascript, SiNextdotjs, SiFastapi, } from 'react-icons/si'
+
 
 const skills = [
   { name: 'Python', icon: <FaPython className="text-green-400" />, level: 95, color: 'bg-blue-500' },

@@ -44,25 +44,11 @@ current skills, interests, and academic background using ML algorithms.`,
     link: '#',
   },
   {
-    title: 'FInsight – Smart Expense Tracker with ML Insights',
-    description:
-      'FInsight is a modern, responsive expense tracker that leverages machine learning to predict expense categories in real time.',
-    image: '/images/FF.jpg',
-    link: 'https://github.com/RohanAM-286/FInsight',
-  },
-  {
     title: 'Spotify Clone',
     description:
       'A responsive and stylish Spotify Web Player Clone built with HTML, CSS, and JavaScript.',
     image: '/images/SP.jpg',
     link: 'https://github.com/RohanAM-286/Spotify-Clone',
-  },
-  {
-    title: '1912 Revisited: Titanic Survival',
-    description:
-      'Uses machine learning to predict survival chances of Titanic passengers based on historical data.',
-    image: '/images/TTT.jpeg',
-    link: 'https://github.com/RohanAM-286/Titanic-SurvivaL-Prediction',
   },
    {
     title: 'Smart Surveillance System',
@@ -84,13 +70,6 @@ current skills, interests, and academic background using ML algorithms.`,
       'A simple yet powerful Spam Classifier built using Natural Language Processing (NLP) and Machine Learning. It classifies SMS messages as Spam or Not Spam based on the content using the Naive Bayes algorithm and TF-IDF vectorization.',
     image: '/images/Spam.jpg',
     link: 'https://github.com/RohanAM-286/Spam-Classifier',
-  },
-   {
-    title: 'Code the Market :Predicting Stocks with ML',
-    description:
-      'This project involves building a machine learning model to predict future stock prices using historical stock market data. The focus is on using a Long Short-Term Memory (LSTM) network, a type of Recurrent Neural Network (RNN), which is well-suited for time series forecasting.',
-    image: '/images/stock.jpeg',
-    link: 'https://github.com/RohanAM-286/Code-the-Market-Predicting-Stocks-with-ML',
   },
    {
     title: 'Object Detection with YOLOv8',
